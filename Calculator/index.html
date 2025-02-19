@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="style.css" rel="stylesheet" />
+  <link rel="shortcut icon" href="calculator-icon.png" type="image/x-icon" />
+  <head>
+    <title>Calculator</title>
+  </head>
+  <body>
+    <!-- Use table for the ui -->
+    <table class="calc-ui">
+      <tr>
+        <td colspan="4">
+          <input id="temp-results" type="text" disabled="text" />
+          <input id="results" type="text" disabled="text" />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <button class="section outer blank"></button>
+        </td>
+        <td>
+          <button class="section outer blank"></button>
+        </td>
+        <td>
+          <button class="section outer blank"></button>
+        </td>
+        <td>
+          <button class="section outer delete">←</button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <!-- <button class="section outer divByOne">1/x</button> -->
+          <button class="section outer clear">C</button>
+        </td>
+        <td>
+          <!-- <button class="section outer square">x²</button> -->
+          <button class="section outer brackets">()</button>
+        </td>
+        <td>
+          <!-- <button class="section outer sqrt">√</button> -->
+          <button class="section outer percentage">%</button>
+        </td>
+
+        <td>
+          <button class="section outer divide">÷</button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <button class="section inner num--7" value="7">7</button>
+        </td>
+        <td>
+          <button class="section inner num--8" value="8">8</button>
+        </td>
+        <td>
+          <button class="section inner num--9" value="9">9</button>
+        </td>
+        <td>
+          <button class="section outer multiply">x</button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <button class="section inner num--4" value="4">4</button>
+        </td>
+        <td>
+          <button class="section inner num--5" value="5">5</button>
+        </td>
+        <td>
+          <button class="section inner num--6" value="6">6</button>
+        </td>
+        <td>
+          <button class="section outer minus">-</button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <button class="section inner num--1" value="1">1</button>
+        </td>
+        <td>
+          <button class="section inner num--2" value="2">2</button>
+        </td>
+        <td>
+          <button class="section inner num--3" value="3">3</button>
+        </td>
+        <td>
+          <button class="section outer plus">+</button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <button class="section inner reverse">+/-</button>
+        </td>
+        <td>
+          <button class="section inner num--0" value="0">0</button>
+        </td>
+        <td>
+          <button class="section inner dot">.</button>
+        </td>
+        <td>
+          <button class="section outer result">=</button>
+        </td>
+      </tr>
+    </table>
+    <script src="script.js"></script>
+  </body>
+</html>
