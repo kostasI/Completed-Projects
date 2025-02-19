@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 0.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+h1 {
+  margin: 3rem;
+}
+
+header {
+  margin-bottom: 1rem;
+  font-size: 20px;
+}
+
+.input-text {
+  width: 80%;
+  font-size: 15px;
+  padding: 1rem;
+}
+
+#submit-text {
+  font-size: 20px;
+  padding: 0.5rem;
+  margin-top: 1rem;
+}
